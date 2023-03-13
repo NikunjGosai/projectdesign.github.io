@@ -1,0 +1,259 @@
+/* common title */
+.section-title {color: var(--white-color);font-size: 40px;font-weight: 600;line-height: 46px;-webkit-line-clamp: 2;margin-bottom: 20px;}
+.section-desc {color: var(--white-color);font-size: 20px;font-weight: 400;line-height: 26px;-webkit-line-clamp: 3;margin-bottom: 20px;}
+
+/* header css */
+.header-wrapper {background-color: #d9ab00;padding: 15px 0;} 
+.header-wrap {display: flex;align-items: center;justify-content: space-between;}
+.header-logo img {width: 200px;height: 100%;}
+.nav-list {display: flex;align-items: center;}
+.nav-link {color: var(--white-color);font-size: 16px;font-weight: 400;margin-right: 30px;}
+
+/* search form */
+.search-input {width: calc(100% - 55px);height: 40px;font-size: 14px;font-weight: 400;padding: 0 10px;letter-spacing: 0.5px;background: var(--primary-color);color: var(--white-color);}
+.search-input::placeholder {color: var(--white-color);font-size: 14px;font-weight: 400;}
+.search-submit {background: var(--secondary-color);border: none;position: relative;top: -1px;width: 50px;height: 40px;margin-left: -5px;cursor: pointer;}
+.search-submit img {width: 18px;height: 18px;}
+.search-option, .hamburger-option {display: none;}
+
+/* first section */
+.section-wrapper {background-color: var(--primary-color);margin-bottom: 80px;}
+.frst-left-sec {float: left;width: calc(100% - 440px);margin: 120px 0;}
+.cont-btn {background-color: var(--secondary-color);border: none;width: 110px;height: 42px;line-height: 40px;color: var(--white-color);font-size: 14px;font-weight: 500;border-radius: 6px;cursor: pointer;}
+.frst-sec-btn .service-btn {background: none;border: 2px solid var(--white-color);width: 110px;height: 42px;line-height: 38px;color: var(--white-color);font-size: 14px;font-weight: 500;border-radius: 6px;cursor: pointer;margin-left: 20px;}
+.frst-right-sec {float: right;width: 100%;max-width: 350px;height: 100%;padding: 40px 0 30px;}
+
+/* second section */
+.second-sec-wrapper, .blog-wrap-list {margin-bottom: 60px;}
+.title {color: var(--grey-color);font-size: 28px;font-weight: 600;line-height: 34px;-webkit-line-clamp: 2;margin-bottom: 20px;}
+.desc {color: var(--grey-color);font-size: 18px;font-weight: 400;line-height: 24px;-webkit-line-clamp: 2;margin-bottom: 20px;}
+.second-sec-wrapper .service-btn, .four-right-sec .service-btn {background: var(--primary-color);border: 2px solid var(--white-color);width: 130px;height: 50px;line-height: 40px;color: var(--white-color);font-size: 14px;font-weight: 500;border-radius: 6px;cursor: pointer;}
+.img-wrap {float: right;width: 100%;max-width: 400px;height: 100%;position: relative;}
+.second-sec-wrapper .img-wrap::before {content: "";width: 200px;height: 200px;background-color: var(--primary-color);position: absolute;bottom: -20px;left: -20px;z-index: -1;}
+.second-sec-wrapper .img-wrap::after {content: "";width: 100%;height: 100%;background-color: var(--primary-color);position: absolute;top: 0;left: 0;opacity: 0.6;}
+
+/* third section blogs */
+.thrd-sec-wrap, .post-wrap {width: 600px;text-align: center;margin: 0 auto;padding: 60px 0;}
+.blog-img {width: 100%;height: 100%;max-width: 320px;margin: 0 auto 30px;}
+.blog-link .title, .five-blog-link .title, .health-link .title, .about-ftr-wrap .title, .service-ftr-wrap .title {color: var(--white-color);font-size: 24px;font-weight: 500;line-height: 30px;-webkit-line-clamp: 1;text-align: center;margin-bottom: 15px;}
+.blog-link .desc {color: var(--white-color);font-size: 16px;font-weight: 400;line-height: 22px;-webkit-line-clamp: 2;text-align: center;}
+
+/* four section */
+.four-sec-wrapper, .vet-care-wrapper, .recent-post-wrapper {margin-bottom: 120px;}
+.four-sec-wrapper .img-wrap {width: 100%;max-width: 400px;height: 100%;position: relative;}
+.four-sec-wrapper .img-wrap::before {content: "";width: 370px;height: 100%;background-color: var(--primary-color);position: absolute;top: 0;left: 15px;opacity: 0.6;}
+.four-sec-wrapper .img-wrap::after {content: "";width: 200px;height: 200px;background-color: var(--primary-color);position: absolute;bottom: -20px;right: -10px;z-index: -1;}
+.four-right-sec.col-md-7 {float: right;text-align: right;margin: 120px 0 75px;}
+
+/* five blog section */ 
+.five-blog-list, .health-wrapper {margin-bottom: 80px;}
+.five-blog-link .title span {text-decoration: line-through;margin-right: 5px;}
+.five-blog-link .buy-now-btn {background-color: var(--secondary-color);border: none;width: 160px;height: 50px;line-height: 50px;color: var(--white-color);font-size: 16px;font-weight: 600;border-radius: 25px;display: block;margin: 0 auto;cursor: pointer;text-transform: capitalize;}
+
+/* vetcare section */
+.vet-care-wrapper .post-wrap, .recent-post-wrapper .post-wrap {margin-bottom: 60px;padding: 0;}
+.post-wrap .title {color: var(--grey-color);font-size: 46px;font-weight: 700;line-height: 52px;-webkit-line-clamp: 1;text-align: center;margin-bottom: 15px;}
+.post-wrap .desc {color: var(--grey-color);font-size: 24px;font-weight: 400;line-height: 30px;-webkit-line-clamp: 2;text-align: center;}
+.vet-care-link .title {font-size: 24px;font-weight: 700;line-height: 30px;text-align: center;text-transform: uppercase;}
+.vet-care-link .title span {display: block;color: var(--grey-color);font-weight: 300;margin-top: 5px;}
+.media-icons {text-align: center;}
+.icons-img {display: inline-block;margin: 0 10px;}
+.icons-img img {background-color: var(--primary-color);border-radius: 50%;width: 30px;height: 30px;}
+
+/* health section */
+.health-wrapper {background-image: url(/image/health-bg-img.png);background-position: center;background-repeat: no-repeat;background-size: cover;height: 450px;position: relative;}
+.health-wrapper::before {content: "";background-color: var(--primary-color);width: 100%;height: 100%;position: absolute;top: 0;left: 0;opacity: 0.8;}
+.health-list {padding: 140px 0 0;}
+.health-link {display: block;text-align: center;}
+.health-img {margin-bottom: 20px;}
+.health-link .numbers {color: var(--white-color);font-size: 20px;line-height: 26px;font-weight: 400;margin-bottom: 10px;}
+
+/* recent post */
+.recent-post-link {display: block;border: 1px solid var(--grey-color);}
+.recent-post-link .blog-img {max-width: 100%;margin-bottom: 0;}
+.recent-post-content {padding: 20px;}
+.recent-post-content .title {font-size: 24px;line-height: 30px;margin-bottom: 5px;}
+.recent-post-content .date {color: var(--secondary-color);font-size: 16px;line-height: 22px;font-weight: 400;margin-bottom: 20px;}
+.recent-post-content .desc {font-size: 16px;line-height: 22px;-webkit-line-clamp: 3;}
+.read-more-btn {background: none;border: none;color: var(--secondary-color);font-size: 18px;font-weight: 600;text-transform: capitalize;}
+
+/* footer start */
+.footer-wrapper {background-color: var(--grey-color);padding: 90px 0 120px;}
+
+/* footer left */
+.ftr-left-section {float: left;width: 50%;}
+.about-ftr-wrap .title, .service-ftr-wrap .title {text-align: left;}
+.ftr-listing a {display: block;color: var(--white-color);font-size: 16px;line-height: 22px;font-weight: 400;margin-bottom: 5px;}
+
+/* footer right */
+.ftr-right-section {float: right;width: 50%;text-align: right;}
+.ftr-right-section .title {color: var(--white-color);font-size: 24px;font-weight: 500;line-height: 30px;-webkit-line-clamp: 1;margin-bottom: 15px;}
+.ftr-right-section .desc {color: var(--white-color);font-size: 16px;font-weight: 400;line-height: 22px;-webkit-line-clamp: 2;margin-bottom: 35px;}
+.ftr-search-form {margin-bottom: 35px;}
+.ftr-search-form .search-input {width: calc(100% - 76px);height: 50px;background-color: var(--primary-color);}
+.ftr-search-form .search-submit {width: 75px;height: 50px;}
+.ftr-right-section .media-icons {text-align: right;}
+.ftr-right-section .media-icons .icons-img {cursor: pointer;}
+.ftr-right-section .media-icons img {background-color: var(--grey-color);}
+
+/********************************** Media Queries *******************************/
+@media screen and (min-width: 1025px) {
+
+    /* hover */
+    .nav-link:hover {color: var(--secondary-color);}
+    .cont-btn:hover, .frst-sec-btn .service-btn:hover {text-decoration: underline;}
+    .second-sec-wrapper .service-btn:hover, .four-right-sec .service-btn:hover {background: var(--secondary-color);}
+    .blog-link:hover .title {color: var(--grey-color);}
+    .five-blog-link .buy-now-btn:hover {color: var(--white-color);background: transparent;border: 2px solid var(--white-color);line-height: 46px;}
+    .icons-img img:hover {background-color: var(--secondary-color);}
+    .health-link:hover .title {color: var(--secondary-color);}
+    .recent-post-link:hover {background-color: var(--white-color);box-shadow: 0px 2px 24px 8px #e8e8e8;} 
+    .recent-post-link:hover .recent-post-content .title {color: var(--primary-color);}
+    .ftr-listing a:hover {color: var(--primary-color);}
+    .ftr-right-section .media-icons .icons-img img:hover {background-color: var(--primary-color);}
+}   
+
+@media screen and (max-width: 1024px) {
+    /* header start */
+    .header-wrapper {padding: 10px 0;}
+    .header-logo, .header-logo img {width: 180px;}
+
+    .four-sec-wrapper .img-wrap::after {right: 0;}
+
+    /* recent post */
+    .recent-post-content .date {display: none;}
+
+}
+
+@media screen and (max-width: 899px) {
+    /* header start */
+    .header-option {display: flex;align-items: center;}
+
+    /* search form */
+    .nav-list, .search-input__form, .hamburger-close_img, .close-img {display: none;}
+    .search-option {margin-right: 25px;}
+    .search-option, .hamburger-option {display: block;} 
+    .search-icon img, .close-img img, .hamburger-icon img, .hamburger-close_img img {width: 18px;height: 18px;} 
+
+    /* search form active css*/
+    .search-input__form.active {display: block;position: absolute;top: 80px;right: 9px;}
+    .search-input {background: var(--grey-color);}
+    .search-option.active .close-img {display: block;}
+    .search-option.active .search-icon {display: none;}
+    .search-option.active .nav-list.active {display: none;}
+
+    /* hamburger active css */
+    .nav-menu .nav-list.active {display: block;background: var(--grey-color);position: absolute;top: 80px;width: 120px;right: 14px;text-align: center;padding: 10px 0;}
+    .hamburger-option.active .hamburger-close_img {display: block;}
+    .hamburger-option.active .hamburger-icon {display: none;}
+    .hamburger-option.active .search-input__form {display: none;}
+    .nav-list.active .search-input__form {display: none;}
+    .listing {margin-bottom: 5px;}
+    .listing:last-child, .second-sec-wrapper .frst-left-sec, .blog-link .desc {margin-bottom: 0;}
+    .nav-link {margin-right: 0;}
+
+    /* first section */
+    .section-wrapper, .second-sec-wrapper, .second-sec-wrapper, .blog-wrap-list, .four-sec-wrapper, .five-blog-list, .vet-care-wrapper {margin-bottom: 40px;}
+    .frst-left-sec {float: none;width: 100%;margin-bottom: 40px;margin-top: 0;}
+    .frst-right-sec {float: none;width: 100%;max-width: 250px;margin: 0 auto;padding: 20px 0 0;}
+    .section-title, .post-wrap .title {font-size: 30px;line-height: 36px;margin-bottom: 10px;}
+    .cont-btn, .service-btn {width: 100px;font-size: 13px;}
+
+    /* second section */
+    .img-wrap, .four-sec-wrapper .img-wrap {float: none;max-width: 250px;margin: 0 auto 30px;}
+    .second-sec-wrapper .img-wrap::before {width: 180px;height: 180px;left: -20px;}
+    .second-sec-wrapper .img-wrap::after {width: 250px;height: 237px;left: 0;}
+    .title, .blog-link .title {font-size: 20px;line-height: 26px;margin-bottom: 10px;}
+    .desc, .blog-link .desc, .recent-post-content .date, .recent-post-content .desc {font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+    .second-sec-wrapper .service-btn, .four-right-sec .service-btn {width: 100px;height: 45px;font-size: 13px;}
+
+    /* third section blogs */
+    .thrd-sec-wrap {width: 100%;padding: 30px 0 10px;}
+    .section-desc, .post-wrap .desc, .health-link .numbers {font-size: 18px;line-height: 24px;}
+    .blog-img {margin: 0 0 20px;}
+    .four-right-sec.col-md-7 {width: 100%;text-align: left;margin: 20px 0 0;}
+
+    /* five blog section */
+    .five-blog-link .title, .vet-care-link .title {font-size: 18px;line-height: 24px;margin-bottom: 10px;}
+    .five-blog-link .buy-now-btn {width: 120px;height: 40px;line-height: 40px;font-size: 14px;}
+
+    /* vetcare section */
+    .vet-care-wrapper .post-wrap, .recent-post-wrapper .post-wrap {width: 100%;margin-bottom: 40px;}
+    .vet-care-link .icons-img {margin: 0 5px;}
+
+    /* health section */
+    .health-wrapper {height: 300px;margin-bottom: 40px;}
+    .health-list {padding: 90px 0 0;}
+    .health-img img {width: 45px;height: 45px;}
+    .health-link .title {font-size: 20px;line-height: 26px;}
+
+    /* recent post */
+    .recent-post-wrapper {margin-bottom: 20px;}
+    .recent-post-link {display: flex;align-items: center;margin-bottom: 20px;}
+    .recent-post-link .blog-img {max-width: 200px;}
+    .recent-post-content {width: calc(100% - 200px);padding: 0;margin: 0 20px;}
+    .recent-post-content .title {font-size: 18px;line-height: 24px;margin-bottom: 5px;}
+    .read-more-btn {font-size: 16px;}
+
+    /* footer start */
+    .footer-wrapper {padding: 30px 0;}
+    .four-sec-wrapper .img-wrap::before {width: 220px;height: 100%;}
+    .four-sec-wrapper .img-wrap::after {width: 160px;height: 160px;right: -6px;}
+    
+    /* footer left */
+    .ftr-left-section {float: none;width: 100%;margin-bottom: 40px;}
+    .ftr-left-section.row {margin: 0 0 30px;}
+    .about-ftr-wrap, .service-ftr-wrap {padding: 0 !important;} 
+    .about-ftr-wrap .title, .service-ftr-wrap .title, .ftr-right-section .title {font-size: 20px;line-height: 26px;margin-bottom: 10px;}
+    .ftr-listing a {font-size: 14px;line-height: 20px;}
+
+    /* footer right */
+    .ftr-right-section {float: none;width: 100%;text-align: left;}
+    .ftr-right-section .media-icons {text-align: left;}
+    .ftr-right-section .desc {font-size: 14px;line-height: 20px;margin-bottom: 25px;}
+    .ftr-search-form {margin-bottom: 25px;}
+    .ftr-search-form .search-input, .ftr-search-form .search-submit {height: 40px;}
+    .icons-img img {width: 25px;height: 25px;}
+    .ftr-right-section .icons-img:first-child {margin-left: 0;}
+}
+
+
+@media screen and (max-width: 599px) { 
+    
+    /* second section */
+    .second-sec-wrapper .img-wrap::before {width: 140px;height: 140px;left: -15px;bottom: -15px;}
+
+    /* third section blogs */
+    .blog-wrap-list, .five-blog-list {margin-bottom: 0;}
+    .thrd-sec-wrap {padding: 20px 0 10px;}
+    .section-title, .post-wrap .title {font-size: 24px;line-height: 30px;margin-bottom: 5px;}
+    .blog-link {display: flex;align-items: center;margin-bottom: 20px;}
+    .blog-img {max-width: 120px;margin: 0;}
+    .thrd-blog-content {width: calc(100% - 120px);margin-left: 15px;}
+    .blog-link .title {font-size: 18px;line-height: 24px;margin-bottom: 5px;text-align: left;}
+    .blog-link .desc {font-size: 14px;line-height: 20px;text-align: left;}
+
+    /* five blog section */
+    .vet-care-wrapper, .health-img, .section-desc {margin-bottom: 10px;}
+    .five-blog-list .blog-listing, .vet-care-listing, .vet-care-wrapper .post-wrap, .recent-post-wrapper .post-wrap {margin-bottom: 20px;}
+    .five-blog-list .blog-img, .vet-care-link .blog-img {max-width: 180px;margin: 0 auto 15px;}
+
+    /* health section */
+    .health-wrapper {height: auto;}
+    .health-list {padding: 30px 0 0;}
+    .post-wrap .desc, .health-link .numbers {margin-bottom: 15px;}
+
+    /* vectare section */
+    .post-wrap {margin-bottom: 20px;}
+
+    /* recent post */ 
+    .recent-post-link .blog-img {max-width: 140px;}
+    .recent-post-content {width: calc(100% - 140px);}
+    .recent-post-content .title, .read-more-btn, .section-desc, .post-wrap .desc {font-size: 16px;line-height: 22px;}
+    .recent-post-content .desc {font-size: 13px;line-height: 19px;-webkit-line-clamp: 2;margin-bottom: 5px;}
+
+    /* footer left */
+    .about-ftr-wrap {margin-bottom: 25px;} 
+}
+
+
